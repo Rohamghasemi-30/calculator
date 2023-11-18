@@ -1,0 +1,151 @@
+body.dark {
+  background-color: black;
+}
+body.dark .calculators {
+  background-image: linear-gradient(60deg, red, rgb(133, 1, 133));
+}
+body.dark .calculators button {
+  background-color: rgb(161, 161, 161);
+  color: #000000;
+}
+body.dark .calculators button:hover {
+  color: #ffffff;
+  background-color: burlywood;
+}
+body.dark .calculators .item-1 {
+  background-color: rgb(85, 85, 85);
+}
+body.dark .calculators .item-2 {
+  background-color: orange;
+}
+body.dark .calculators .type {
+  color: #000000;
+}
+body.dark .dark-mode button {
+  background-image: linear-gradient(60deg, red, rgb(133, 1, 133));
+  color: #000000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+body .calculators {
+  width: 19%;
+  height: 500px;
+  display: grid;
+  row-gap: 20px;
+  column-gap: 10px;
+  justify-content: center;
+  align-content: end;
+  background-color: #000000;
+  border-radius: 15px;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px;
+  grid-template-columns: 40px 40px 40px 40px;
+}
+body .calculators button {
+  background-color: rgb(58, 58, 58);
+  color: white;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  display: grid;
+  align-content: center;
+}
+body .calculators button:hover {
+  background-color: cornsilk;
+  color: #000000;
+}
+body .calculators .item-19 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: start;
+}
+body .calculators .item-1 {
+  background-color: gray;
+}
+body .calculators .item-2 {
+  background-color: orange;
+}
+body .calculators .type {
+  color: #ffffff;
+  position: relative;
+  bottom: 390px;
+  left: 99px;
+  font-size: 40px;
+  font-family: Mont-Regular;
+}
+body .dark-mode {
+  padding: 20px;
+}
+body .dark-mode button {
+  border-radius: 50px;
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+body .dark-mode button:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+
+@font-face {
+  src: url(/fonts/Mont-Black.ttf);
+  font-family: mont-black;
+}
+@font-face {
+  src: url(/fonts/Mont-BlackItalic.ttf);
+  font-family: mont-BlackItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Bold.ttf);
+  font-family: mont-bold;
+}
+@font-face {
+  src: url(/fonts/Mont-BoldItalic.ttf);
+  font-family: Mont-BoldItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-ExtraLight.ttf);
+  font-family: Mont-ExtraLight;
+}
+@font-face {
+  src: url(/fonts/Mont-ExtraLightItalic.ttf);
+  font-family: Mont-ExtraLightItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Heavy.ttf);
+  font-family: Mont-Heavy;
+}
+@font-face {
+  src: url(/fonts/Mont-HeavyItalic.ttf);
+  font-family: Mont-HeavyItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Light.ttf);
+  font-family: Mont-Light;
+}
+@font-face {
+  src: url(/fonts/Mont-LightItalic.ttf);
+  font-family: Mont-LightItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Regular.ttf);
+  font-family: Mont-Regular;
+}
+@font-face {
+  src: url(/fonts/Mont-RegularItalic.ttf);
+  font-family: Mont-RegularItalic;
+}
+@font-face {
+  src: url(/fonts/Mont-Thin.ttf);
+  font-family: Mont-Thin;
+}
+@font-face {
+  src: url(/fonts/Mont-ThinItalic.ttf);
+  font-family: Mont-ThinItalic;
+}
+
+/*# sourceMappingURL=style.css.map */
